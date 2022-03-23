@@ -1,6 +1,6 @@
 # CS4158-Parser-Project
 
-## Part1 Lexer
+## Part1 The Lexer
 #### [Steps] the build and execution for my lexer
 
 flex lexer.l
