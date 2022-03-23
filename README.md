@@ -15,15 +15,26 @@ gcc lex.yy.c
 #### Screenshots
 The following are some screenshots of running examples.
 
-![image](https://user-images.githubusercontent.com/43991412/159787383-84c2dc57-37a9-4d13-a2a1-692582438c18.png)
+![image](https://user-images.githubusercontent.com/43991412/159789581-84bf37da-7a04-4a72-8775-202171cbb1c9.png)
 
-![image](https://user-images.githubusercontent.com/43991412/159787761-5807b580-4959-4290-90a1-0b4486ff976e.png)
+![image](https://user-images.githubusercontent.com/43991412/159789621-3b177b3c-ded9-4c2f-bb35-768916825704.png)
 
-![image](https://user-images.githubusercontent.com/43991412/159787807-0ae45edd-8d42-4fa2-9ae6-caccc19a10ac.png)
+![image](https://user-images.githubusercontent.com/43991412/159789698-0365a511-4e6f-45e3-9459-4b849a77e7e4.png)
 
-![image](https://user-images.githubusercontent.com/43991412/159787861-ec715a07-d649-4e5c-9a43-ef952fdb230c.png)
+![image](https://user-images.githubusercontent.com/43991412/159789755-5db67bc7-e1de-4959-9357-9dc9da04f4f6.png)
 
-![image](https://user-images.githubusercontent.com/43991412/159787922-5197fffc-841d-41b0-ab57-b75120bcc1a3.png)
+![image](https://user-images.githubusercontent.com/43991412/159789795-f330724c-988b-4436-b124-a8e1a920910c.png)
 
-![image](https://user-images.githubusercontent.com/43991412/159788007-5859719a-4ab6-45ad-9705-c5ad3025cea5.png)
+![image](https://user-images.githubusercontent.com/43991412/159789821-2fcdc6ec-c79e-4b9a-aa7b-2b4d945424e0.png)
 
+![image](https://user-images.githubusercontent.com/43991412/159789851-a610a57a-f611-4894-8397-86b7e5883789.png)
+
+![image](https://user-images.githubusercontent.com/43991412/159789887-0ac75d54-466f-4797-be9f-3622f0516b68.png)
+
+![image](https://user-images.githubusercontent.com/43991412/159789928-d0e792b3-3eb4-42fd-8f71-6fcc53e72cb1.png)
+
+![image](https://user-images.githubusercontent.com/43991412/159789945-330c01ec-b782-4bbb-b816-e3b562e47874.png)
+
+![image](https://user-images.githubusercontent.com/43991412/159789966-d548be8f-ec41-4e40-930e-99075b5d04e2.png)
+
+![image](https://user-images.githubusercontent.com/43991412/159790013-7a138833-0e60-4962-9dc1-1fa89182f1ac.png)
