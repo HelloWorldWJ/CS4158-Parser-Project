@@ -1,5 +1,7 @@
 # CS4158-Parser-Project
 
+Jian Wang - 20125984
+
 ## Part1 The Lexer
 #### [Steps] The build and execution for my lexer
 
