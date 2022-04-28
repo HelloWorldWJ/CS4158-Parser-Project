@@ -44,10 +44,10 @@ int checkIdentifierIndex(char* varName);
 
 
 %%
-program	: beginning body end					{ printf("\nProgram is well-formed.\n"); exit(0); } 
+program		: beginning body end					{ printf("\nProgram is well-formed.\n"); exit(0); } 
 		;
                     
-beginning	: BEGINING LINE_TERMINATOR declarations		{ }
+beginning	: BEGINING LINE_TERMINATOR declarations			{ }
 		;
                     
 declarations	: declarations declaration				{ }
@@ -67,7 +67,7 @@ operations	: operations operation					{ }
 operation	: move | add | input | print				{ }
 		;
                    
-move		: MOVE IDENTIFIER TO IDENTIFIER LINE_TERMINATOR	{ VarToVar($2, $4); } 
+move		: MOVE IDENTIFIER TO IDENTIFIER LINE_TERMINATOR		{ VarToVar($2, $4); } 
 		| MOVE INTEGER TO IDENTIFIER LINE_TERMINATOR		{ IntToVar($2, $4); }
 		;
                     
@@ -75,14 +75,14 @@ add		: ADD IDENTIFIER TO IDENTIFIER LINE_TERMINATOR		{ VarToVar($2, $4); }
 		| ADD INTEGER TO IDENTIFIER LINE_TERMINATOR		{ IntToVar($2, $4); }
 		;
 		
-input		: INPUT input_statement				{ }
+input		: INPUT input_statement					{ }
 		;
                     
 input_statement : IDENTIFIER SEMICOLON input_statement			{ isIdentifierExists($1); }
 		| IDENTIFIER LINE_TERMINATOR				{ isIdentifierExists($1); }
 		;
                     
-print		: PRINT print_statement				{ }
+print		: PRINT print_statement					{ }
 		;
                     
 print_statement : STRING_LITERAL SEMICOLON print_statement		{ }
