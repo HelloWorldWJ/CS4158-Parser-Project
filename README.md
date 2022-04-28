@@ -43,8 +43,11 @@ The following are some screenshots of running examples.
 
 
 ## Part2 The Full Parser
+#### Note
+This parser allows the program text to be only BEGINING and END, with no declarations or statements between them
+
 #### [Steps] How to run it
-##### Method 1:
+###### Method 1:
 
 flex lexer.l
 
@@ -54,6 +57,9 @@ gcc lex.yy.c parser.tab.c
 
 ./a.out
 
-##### Method 2:
+###### Method 2:
 
 flex lexer.l&&bison -d parser.y&&gcc lex.yy.c parser.tab.c&&./a.out
+
+#### Something that may cause you confusion
+
