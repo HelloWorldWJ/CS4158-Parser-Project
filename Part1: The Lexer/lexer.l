@@ -8,17 +8,18 @@ void printCAPACITY(char* str, char* yytext);
 %}
 
 %option noyywrap
+%option caseless
 
 %%
-[\t ]+ 		/* Ignore whitespace */ ;
+[\t ]+ 			/* Ignore whitespace */ ;
 [\n]+ 			/* Ignore whitespace */ ;			
-BEGINING |	        
-BODY     |          
-END      |          
-MOVE     |         
-ADD      |  
-TO	 |       
-INPUT    |      
+BEGINING 	|	        
+BODY     	|          
+END      	|          
+MOVE     	|         
+ADD      	|  
+TO	 	|       
+INPUT    	|      
 PRINT			{ printf("Current %s is a valid KEYWORD\n", yytext); }      
 [Xx]+			{ printCAPACITY("Current INPUT is", yytext); }
 (-)?[0-9]+		{ printf("Current %s is an INTEGER\n", yytext); }
