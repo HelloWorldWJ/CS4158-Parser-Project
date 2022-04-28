@@ -3,7 +3,7 @@
 Jian Wang - 20125984
 
 ## Part1 The Lexer
-#### [Steps] The build and execution for my lexer
+### [Steps] The build and execution for my lexer
 
 flex lexer.l
 
@@ -14,7 +14,7 @@ gcc lex.yy.c
 (You can then test the example by typing from the keyboard.)
 
 
-#### Screenshots
+### Screenshots
 The following are some screenshots of running examples.
 
 ![image](https://user-images.githubusercontent.com/43991412/159789581-84bf37da-7a04-4a72-8775-202171cbb1c9.png)
@@ -43,11 +43,15 @@ The following are some screenshots of running examples.
 
 
 ## Part2 The Full Parser
-#### Note
+### Note
 This parser allows the program text to be only BEGINING and END, with no declarations or statements between them
+### Something that may cause you confusion
+![image](https://user-images.githubusercontent.com/43991412/165846315-4e9339d9-0b31-4df3-bc23-2b46ce62cb2b.png)
 
-#### [Steps] How to run it
-###### Method 1:
+When a program is **not well-formed**, the parser exits on the line where the error statement appears. If typed in by pasting text, the content following the line of the error statement will automatically appear on the command line and run. For example, the statement on line 13 (the space) in the diagram above has been run as a command in the terminal.
+
+### [Steps] How to run it
+#### Method 1:
 
 flex lexer.l
 
@@ -57,9 +61,7 @@ gcc lex.yy.c parser.tab.c
 
 ./a.out
 
-###### Method 2:
+#### Method 2:
 
 flex lexer.l&&bison -d parser.y&&gcc lex.yy.c parser.tab.c&&./a.out
-
-#### Something that may cause you confusion
 
