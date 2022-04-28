@@ -40,3 +40,15 @@ The following are some screenshots of running examples.
 ![image](https://user-images.githubusercontent.com/43991412/159789966-d548be8f-ec41-4e40-930e-99075b5d04e2.png)
 
 ![image](https://user-images.githubusercontent.com/43991412/159790013-7a138833-0e60-4962-9dc1-1fa89182f1ac.png)
+
+## Part2 The Full Parser
+#### [Steps] How to run it
+
+flex lexer.l
+bison -d parser.y
+gcc lex.yy.c parser.tab.c
+./a.out
+
+or
+
+flex lexer.l&&bison -d parser.y&&gcc lex.yy.c parser.tab.c&&./a.out
