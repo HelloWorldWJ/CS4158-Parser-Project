@@ -14,7 +14,7 @@ char* temp;
 
 %%
 
-[\t ]+ 		/* Ignore whitespace */ ;
+[\t ]+ 		    /* Ignore whitespace */ ;
 [\n]+ 			/* Ignore whitespace */ ;
 BEGINING		{ return BEGINING; }
 BODY			{ return BODY; }
@@ -36,7 +36,6 @@ PRINT			{ return PRINT; }
 
 int yywrap(void){
     return 1;
-    //(?i:BEGINING)           { return BEGINING; }
 }
 
 
